@@ -11,7 +11,7 @@ class Rectangle(Forme):
         return self.largeur * self.hauteur
 
 forme = Forme()
-print(forme.aire())  # Output: 0
+#print(forme.aire())  # Output: 0
 
 rectangle = Rectangle(5, 3)
 print(rectangle.aire())  # Output: 15
