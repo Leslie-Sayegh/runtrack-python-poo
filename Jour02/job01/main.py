@@ -51,6 +51,6 @@ class Professeur(Personne):
 # Exemple d'utilisation
 prof1 = Professeur(40, "mathématiques")
 prof1.bonjour() # Affiche "Hello"
-prof1.afficherAge() # Affiche "j'ai 40 ans"
+#prof1.afficherAge() # Affiche "j'ai 40 ans"
 prof1.afficherMatiereEnseignee() # Affiche "Je suis professeur de mathématiques"
 prof1.enseigner() # Affiche "Le cours va commencer."
